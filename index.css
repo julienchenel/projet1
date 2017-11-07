@@ -1,0 +1,65 @@
+/* Style général de la page */
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+/* Style des titres  */
+
+h1,
+h2,
+h3 {
+    font-family: 'Jockey One', sans-serif;
+    text-transform: uppercase;
+    color: #FF3300;
+}
+
+/* Style de la photo */
+
+#photo {
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+
+
+/* Etat civil et adresse  */
+
+#frame_gauche {
+    margin-left: 5px;
+}
+
+
+/* Corps du CV  */
+
+#frame_droite {
+    margin-left: 300px;
+    margin-top: -50px;
+}
+
+#header {
+    margin-left: 300px;
+}
+
+
+/* Cadre coloré citation */
+
+#cadre1 {
+    padding: 10px;
+    background: #FF3300;
+    color: #FFFFFF;
+}
+
+
+/* Cadre borduré mon rêve */
+
+#cadre2 {
+    border: 3px solid;
+    border-color: #FF3300;
+    padding: 5px;
+    background: #FFFFFF;
