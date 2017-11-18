@@ -1,65 +1,106 @@
-/* Style général de la page */
+html	{
+	font-family: 'Open Sans', sans-serif;
+	text-align: justify;
+	margin-right: 40px;
 
-html {
-    font-family: 'Open Sans', sans-serif;
-    text-align: justify;
-    margin-right: 40px;
-    margin-top: 10px;
 }
 
-/* Style des titres  */
-
-h1,
-h2,
-h3 {
-    font-family: 'Jockey One', sans-serif;
-    text-transform: uppercase;
-    color: #FF3300;
+h1, h2, h3	{
+	font-family: 'Jockey One', sans-serif;
+	text-transform: uppercase;
+	color: #FF3300;
 }
 
-/* Style de la photo */
-
-#photo {
-    width: 230px;
-    height: 230px;
-    position: absolute;
-    top: 40px;
-    left: 30px;
+#photo	{
+	width: 240px;
+	height: 240px;
+	position: fixed;
+	top: 30px;
+	left:20px;
 }
 
-
-/* Etat civil et adresse  */
-
-#frame_gauche {
-    margin-left: 5px;
+#frame_gauche	{
+	position: fixed;
+	top: 270px;
+	left: 10px;
 }
 
-
-/* Corps du CV  */
-
-#frame_droite {
-    margin-left: 300px;
-    margin-top: -50px;
+#frame_droite	{
+	position: absolute;
+	top: 270px;
+	left: 300px;
+	right: 50px
 }
 
-#header {
-    margin-left: 300px;
+#header	{
+	position: absolute;
+	left: 300px;
+	right: 50px
 }
 
-
-/* Cadre coloré citation */
-
-#cadre1 {
+#cadre1	{
     padding: 10px;
     background: #FF3300;
     color: #FFFFFF;
 }
 
-
-/* Cadre borduré mon rêve */
-
-#cadre2 {
+#cadre2	{
     border: 3px solid;
     border-color: #FF3300;
     padding: 5px;
     background: #FFFFFF;
+}
+
+html	{
+	font-family: 'Open Sans', sans-serif;
+	text-align: justify;
+	margin-right: 40px;
+
+}
+
+h1, h2, h3	{
+	font-family: 'Jockey One', sans-serif;
+	text-transform: uppercase;
+	color: #FF3300;
+}
+
+#photo	{
+	width: 240px;
+	height: 240px;
+	position: fixed;
+	top: 30px;
+	left:20px;
+}
+
+#frame_gauche	{
+	position: fixed;
+	top: 270px;
+	left: 10px;
+}
+
+#frame_droite	{
+	position: absolute;
+	top: 270px;
+	left: 300px;
+	right: 50px
+}
+
+#header	{
+	position: absolute;
+	left: 300px;
+	right: 50px
+}
+
+#cadre1	{
+    padding: 10px;
+    background: #FF3300;
+    color: #FFFFFF;
+}
+
+#cadre2	{
+    border: 3px solid;
+    border-color: #FF3300;
+    padding: 5px;
+    background: #FFFFFF;
+}
+
