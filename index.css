@@ -19,8 +19,8 @@ h3 {
 -/* Style de la photo */
 
 #photo {
-    width: 240px;
-    height: 240px;
+    width: 140px;
+    height: 140px;
     position: fixed;
     top: 30px;
     left: 20px;
